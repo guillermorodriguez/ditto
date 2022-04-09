@@ -42,7 +42,7 @@ class Model(object):
           filters=16,
           kernel_size=[5, 5],
           padding="same",
-          activation=tf.nn.relu)
+          activation=tf.nn.relu6)
         pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2)
         conv2 = tf.layers.conv2d(
             inputs=pool1,
