@@ -67,3 +67,5 @@ then open `point_estimation.ipynb`, and directly run the notebook cell by cell t
 * Vehicle, Ditto, without attacks, lambda=1: `bash run_vehicle_clean_ditto_lam1.sh`
 * Vehicle, Ditto, A1 (50% adversaries), lambda=1: `bash run_vehicle_a1_50_ditto_lam1.sh`
 
+# Activation functions in Tensorflow for relu6
+https://www.tensorflow.org/api_docs/python/tf/nn/relu6
